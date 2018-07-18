@@ -1,0 +1,22 @@
+th, td,tr, {
+    border: 1px solid black;
+    color: white;
+    background: white;
+}
+div,table{
+	color: white;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto ;
+}
+body{
+	background-image: url("https://ae01.alicdn.com/kf/HTB1wfY_SXXXXXbgXXXXq6xXFXXXn/Textura-Da-Parede-De-Madeira-preta-festa-Fotografia-Fundos-Computador-impresso-Vinil-pano-de-fundo-pano.jpg_640x640.jpg");
+}
+a{
+	color: white;
+}
+.tudo{
+	
+	width: 50%;
+	margin-top: 12%;
+}

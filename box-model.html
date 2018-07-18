@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treinamento CSS</title>
+    <style media="screen">
+
+      body > div:not(#father) {
+        position: absolute;
+
+        height: 100px;
+        width: 100px;
+      }
+
+      #first {
+        left: 200px;
+        top: 100px;
+
+        margin-left: 50px;
+
+        border: 5px solid #000;
+
+        background-color: green;
+      }
+
+      #second {
+        left: 150px;
+        top: 150px;
+
+        padding: 20px;
+
+        border: 2px dashed orange;
+
+        z-index: -1; 
+
+        background-color: red;
+      }
+
+      #father {
+        width: 100%;
+      }
+
+      #father div {
+        display: inline-block;
+        width: 100px;
+      }
+
+      #third {
+        background-color: pink;
+        border: 3px solid black;
+      }
+
+      #fourth {
+        position: relative;
+        right: -50px;
+        background-color: orange;
+        border: 3px solid black;
+      }
+      #fundo{
+        background-color:#084B8A;
+      }
+
+    </style>
+  </head>
+  <body id = "fundo">
+
+    <div id="first">
+      First!
+    </div>
+
+    <div id="second">
+      Second!
+    </div>
+
+    <div id="father">
+      <div id="third">Third!</div><div id="fourth">Fourth!</div>
+    </div>
+
+  </body>
+</html>
